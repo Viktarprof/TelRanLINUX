@@ -1,0 +1,52 @@
+
+   0 mkdir -p /home/user/start/1.txt
+   1 mv /home/user/start/1.txt /home/user/start/Viktar.txt
+   2 date
+   3 date > Viktar.txt
+   4 mkdir -p /opt/task
+   5 cp -r /home/user/start/Viktar.txt /opt/task
+   6 cd /opt
+   7 tree
+   8 tree |tail -4
+   9 tree |tail -4 >> Viktar.txt
+  10 history
+  11 history > history.txt
+  12 export_file /tmp/history.txt
+  13 history > /tmp/history.txt
+
+Тут я создал дату и запись ее в фал виктор
+Потом добавлял последние 4 строчки 
+Такой способ у меня вышел
+mkdir -p /home/user/start/1.txt
+localhost:/opt# tree
+.
+├── task
+│   └── Viktar.txt
+└── temu
+    ├── kernel-x86.bin
+    ├── readme.txt
+    ├── root-x86-framebuffer.cfg
+    ├── root-x86.bin
+    └── root-x86.cfg
+ 
+3 directories, 5 files
+localhost:/opt# tree |tail -4
+    ├── root-x86.bin
+    └── root-x86.cfg
+
+Когда я проверил содержимое то оказалось что даты в моем файле виктор нету. Почему?
+localhost:/opt# cat / Viktar.txt
+cat: read error: Is a directory
+    ├── root-x86.bin
+    └── root-x86.cfg
+ 
+3 directories, 6 files
+А потом и вовсе показало вот так. Почему?
+
+localhost:/opt/task# cat / Viktar.txt
+cat: read error: Is a directory
+cat: read error: Is a directory
+localhost:/opt/task#
+Upload files 
+
+

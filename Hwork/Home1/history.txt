@@ -1,0 +1,69 @@
+   0 cd /home
+   1 pwd
+   2 mkdir dogs
+   3 cd dogs
+   4 cd..
+   5 cd ..
+   6 pwd
+   7 mkdir cats
+   8 mkdir fish
+   9 tree
+  10 touch /home/csts/pluto.txt
+  11 touh /home/dogs/pluto.txt
+  12 tree
+  13 touch /home/dogs/pluto.txt
+  14 tree
+  15 touch /home/cats/garfield.txt
+  16 touch /home/fish/nemo.txt
+  17 tree
+  18 cd tmp
+  19 cd /tmp
+  20 touch/adam.txt
+  21 touch /tmp/adam.txt
+  22 tree
+  23 mkdir -p /home/humans
+  24 cd home
+  25 cd /home
+  26 tree
+  27 touch /tmp/evA.txt
+  28 cp /tmp/adam.txt /home/humans
+  29 ls /home/humans/adam.txt
+  30 tree
+  31 cd /tmp
+  32 tree
+  33 mv /opt/evA /opt/eva.txt
+  34 mv/tmp/evA.txt /opt/eva.txt
+  35 ls /tmp/evA.txt
+  36 history
+  37 mv /tmp/opt
+  38 mv /tmp/evA.txt /tmp/eva.txt
+  39 ls /tmp
+  40 tree
+  41 rm /tmp/eva.txt /home/humans
+  42 tree
+  43 cd /home
+  44 tree
+  45 touch /tmp/evA.txt
+  46 cd /tmp
+  47 ls /tmp
+  48 tree
+  49 mv /tmp/evA.txt /home/humans/eva.txt
+  50 ls /home/humans
+  51 cd /home
+  52 tree
+  53 ls /home/humans
+  54 tree
+  55 cd /tmp
+  56 tree
+  57 history
+  58 history > /home/history.txt
+  59 ls /tmp
+  60 history > /tmp/history.txt
+  61 history
+  62 history > history.txt
+  63 history.txt
+  64 history > /tmp/history.txt
+  65 cd /tmp
+  66 history > history.txt
+  67 import_file /tmp/history.txt
+  68 history > history.txt

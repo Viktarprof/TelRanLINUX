@@ -1,0 +1,13 @@
+   0 pwd
+   1 date
+   2 vi /root/chmodFile.txt тут я сразу вписал любой свой текст и сохранил командой :wq
+   3 date >> chmodFile.txt
+   4 ls -la
+   5 chmod u-w chmodFile.txt
+   6 chmod u+x chmodFile.txt
+   7 chmod u+w chmodFile.txt
+   8 chmod u-r chmodFile.txt
+   9 chmod g+x chmodFile.txt
+  10 ls -la
+  11 history
+  12 history > /tmp/history.txt

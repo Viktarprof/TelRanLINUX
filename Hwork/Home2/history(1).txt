@@ -1,0 +1,12 @@
+   0 mkdir -p /home/user/start/1.txt
+   1 mv /home/user/start/1.txt /home/user/start/Viktar.txt
+   2 date
+   3 date > Viktar.txt
+   4 mkdir -p /opt/task
+   5 cp -r /home/user/start/Viktar.txt /opt/task
+   6 history 
+   7 history > /tmp/history.txt
+
+Я не совсем понял вопроса во втором задании. Нужно Переименовать или дописать слово Start в файл 1.txt
+В задании 4 стало понятно что нужно было переименовать. 
+
